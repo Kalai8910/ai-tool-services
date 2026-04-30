@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>40 AI Services - Free Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 40+ AI Services - One Place</h1>
+        <p>Choose any service, describe what you need - AI will do it for FREE!</p>
+
+        <!-- Service Selection -->
+        <select id="serviceSelect">
+            <option value="logo_design">🎨 Logo Design</option>
+            <option value="resume_writing">📄 Resume Writing</option>
+            <option value="data_viz">📊 Data Visualization</option>
+            <option value="video_script">🎬 Video Script</option>
+            <option value="songwriting">🎵 Songwriting</option>
+            <option value="podcast_script">🎙️ Podcast Script</option>
+            <option value="business_plan">📈 Business Plan</option>
+            <option value="market_research">🔍 Market Research</option>
+            <option value="seo_content">🔎 SEO Content</option>
+            <option value="email_copy">✉️ Email Copy</option>
+            <!-- Add more 30 services -->
+        </select>
+
+        <!-- User Input -->
+        <textarea id="userInput" placeholder="Describe what you want... Example: 'Create a logo for a coffee shop called Morning Brew'"></textarea>
+
+        <!-- Generate Button -->
+        <button onclick="generate()">✨ Generate for FREE</button>
+
+        <!-- Loading -->
+        <div id="loading" style="display:none;">⏳ AI is working... please wait</div>
+
+        <!-- Output -->
+        <div class="output-box" id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
