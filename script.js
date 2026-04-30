@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyAO88mt5cwGoCB1bCD14IH1VEPMPNRh0xg"
+const API_KEY ="AIzaSyAO88mt5cwGoCB1bCD14IH1VEPMPNRh0xg"
 
 async function generate() {
     const service = document.getElementById('serviceSelect').value;
