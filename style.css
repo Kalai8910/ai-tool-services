@@ -19,11 +19,6 @@ h1 {
     text-align: center;
 }
 
-p {
-    text-align: center;
-    color: #666;
-}
-
 select, textarea, button {
     width: 100%;
     padding: 12px;
@@ -36,7 +31,6 @@ select, textarea, button {
 
 textarea {
     height: 120px;
-    resize: vertical;
 }
 
 button {
@@ -57,5 +51,4 @@ button:hover {
     border-radius: 8px;
     margin-top: 20px;
     white-space: pre-wrap;
-    border: 1px solid #e0e0e0;
 }
