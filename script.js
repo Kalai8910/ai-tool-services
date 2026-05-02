@@ -38,8 +38,8 @@ async function generate() {
     }
     
     try {
-        // FIXED: Changed model name from gemini-pro to gemini-1.5-flash
-        const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=' + API_KEY, {
+        // FIXED: Using gemini-2.0-flash (currently supported)
+        const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + API_KEY, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
